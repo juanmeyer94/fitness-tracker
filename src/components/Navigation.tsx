@@ -1,7 +1,6 @@
-import React from 'react';
 import { Home, Weight, Dumbbell, CheckSquare, Camera, BarChart3 } from 'lucide-react';
 import { Button } from './ui/button';
-import { cn } from '@/lib/utils';
+import { cn } from '../lib/utils';
 
 interface NavigationProps {
   currentPage: string;
